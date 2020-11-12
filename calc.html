@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link href="calc.css" rel="stylesheet">
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+<div class="content">
+    <div class="col6">
+        <div class="area NewBox">
+            <h2>Das ist der Umrechner, hier kannst du dezimalzahlen in Binär oder Hexadezimalzahlen umwandeln</h2>
+            <form>
+                <select id="Umrechner">
+                    <option value="dez">Dezimal</option>
+                    <option value="bin">Binär</option>
+                    <option value="hex">Hexadezimal</option>
+                </select>
+                <label for="dez"></label>
+                <input type="number" id="dez" size="20" maxlength="20" placeholder="Dezimal">
+                <label for="bin"></label>
+                <input pattern="[0|1]" type="text" id="bin" size="20" maxlength="20" placeholder="Binär" readonly>
+                <label for="hex"></label>
+                <input type="text" id="hex" size="20" maxlength="20" placeholder="Hexadezimal"
+                       readonly>
+            </form>
+            <button class="sub">Umwandeln</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

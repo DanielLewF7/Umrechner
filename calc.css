@@ -1,0 +1,97 @@
+.content {
+    width: 80%;
+    margin: auto;
+    height: 1800px;
+    background-color: #ABAEB3;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.col6 {
+    width: 50%;
+    margin: auto;
+}
+label {
+    font-family: 'Raleway', sans-serif;
+}
+#dez {
+    width: 20%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+#dez:hover {
+    border-color: #8ac5c3;
+}
+
+#bin {
+    width: 20%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+#bin:hover {
+    border-color: #8ac5c3;
+}
+
+#hex {
+    width: 20%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+#hex:hover {
+    border-color: #8ac5c3;
+}
+
+.area {
+    margin-top: 25px;
+    height: 50px;
+}
+
+#Umrechner {
+    width: 20%;
+    height: 25px;
+    margin-bottom: 30px;
+}
+.NewBox {
+    text-align: center;
+    border: 1px solid black;
+    height: 500px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #8ac5c3;
+    color: black;
+    margin: 50px;
+}
+.NewBox:hover {
+    background-color: #0C7489;
+    transition: linear 0.2s;
+}
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.sub {
+    background-color: #edece8;
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 25px;
+}
+
+.sub:hover {
+    cursor: pointer;
+    background-color:  #8ac5c3;
+    transition: linear 0.2s;
+}
